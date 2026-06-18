@@ -69,7 +69,11 @@ npm run dev
 
 ## 📸 Screenshots
 
-<!-- Add screenshots here after deploying -->
+<img width="1915" height="988" alt="image" src="https://github.com/user-attachments/assets/5f800023-af90-459c-8ca4-1d889c911a52" />
+
+<img width="1915" height="951" alt="image" src="https://github.com/user-attachments/assets/0469bbcc-a854-41b7-9f04-ad0006bc7774" />
+
+
 
 ---
 
