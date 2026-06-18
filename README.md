@@ -1,16 +1,76 @@
-# React + Vite
+# 💬 Yapper — Real-Time Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-quality real-time chat application built with React and Firebase.
+No signup needed — join as a guest and start chatting instantly.
 
-Currently, two official plugins are available:
+🔗 **Live Demo: [yapper-flax.vercel.app](https://yapper-flax.vercel.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Open in two browser tabs to see real-time messaging in action.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🚀 Guest login — no signup, no password
+- 💬 3 chat rooms — #general, #tech, #random
+- ⚡ Real-time messages via Firebase Realtime Database
+- 👀 Live typing indicators
+- 🟢 Online users list per room (updates in real time)
+- 🔐 Firebase Anonymous Auth — every user gets a secure session
+- 📱 Clean dark UI built with CSS Modules
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React 18 + Vite |
+| Styling | CSS Modules |
+| Real-time | Firebase Realtime Database |
+| Auth | Firebase Anonymous Authentication |
+| Deployment | Vercel |
+
+---
+
+## 🔐 Security
+
+- All traffic encrypted via HTTPS
+- Firebase encrypts data at rest
+- Database rules restrict read/write to authenticated users only
+- API keys stored in environment variables — never exposed in code
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/BalChanderReddy-eng/yapper.git
+cd yapper
+npm install
+```
+
+Create a `.env` file in the root:
+```
+VITE_FIREBASE_API_KEY=your_key
+VITE_FIREBASE_AUTH_DOMAIN=your_domain
+VITE_FIREBASE_PROJECT_ID=your_project
+VITE_FIREBASE_STORAGE_BUCKET=your_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+VITE_FIREBASE_DATABASE_URL=your_database_url
+```
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+<!-- Add screenshots here after deploying -->
+
+---
+
+Built by [Balchander Reddy Yedla](https://linkedin.com/in/balchander-reddy-yedla)
