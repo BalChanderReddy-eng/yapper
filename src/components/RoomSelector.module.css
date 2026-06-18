@@ -1,0 +1,75 @@
+.container {
+  min-height: 100vh;
+  background: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 24px;
+}
+
+.header {
+  text-align: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 0 8px;
+}
+
+.welcome {
+  color: #888;
+  margin: 0;
+}
+
+.rooms {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: #6c63ff;
+}
+
+.emoji {
+  font-size: 1.8rem;
+}
+
+.info {
+  flex: 1;
+}
+
+.roomName {
+  color: #fff;
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.desc {
+  color: #888;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.online {
+  color: #4caf50;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
